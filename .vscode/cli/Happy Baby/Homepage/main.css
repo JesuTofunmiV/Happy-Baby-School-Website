@@ -1,0 +1,212 @@
+body{
+    display: block;
+
+}
+.main-nav{
+    background-color:rgba(154, 154, 160, 0.103);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    padding-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: fixed;
+}
+/*.main-nav color change on scroll*/
+.main-nav.fixed {
+    background-color: #314a94; /* New color when fixed */
+}
+.main-nav img{
+    width: 100px;
+    padding-top: 32px;
+    padding-left: 0;
+    
+}
+.main-nav ul{
+    display: flex;
+    justify-content: space-between ;
+    text-align: center;
+    padding-right: 80px;
+   
+
+
+}
+.main-nav li{
+    width: 25%;
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+  
+    
+}
+.main-nav li button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: #eaa900;
+    width: 100px;
+    border: 0px;
+}
+.main-nav a{
+    text-decoration: none;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.section-A{
+    display: block;
+    background-image: url(HTML\ 1\ background.png);
+    background-size: cover;
+    height: 800px;
+    color: white;
+    width: 100%;
+}
+.text-A{
+    padding-top: 200px;
+    padding-left: 64px;
+}
+.section-A p {
+    font-weight: 100;
+    font-size: 16px;
+    width: 35%;
+   
+}
+.section-B{
+    display: block;
+    background-image: url(Section-B\ bg.png);
+    padding-left: 40px;
+    margin-top: ;
+}
+.text-B{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;  
+    padding-top: 16px;  
+}
+.text-B p{
+    font-size: 12px;
+    padding-top: 56px;
+    padding-left: 100px;
+    width: 50%;
+    font-weight: 600;
+}
+.text-B img{
+    width: 400px;
+
+}
+.section-C{
+    display: block;
+    text-align: center;
+    background-image: url(Section-C\ bg.png);
+}
+.small-C{
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.sub-C{
+    display: block;
+}
+.sub-C button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    width: 100px;
+    border: 0px;
+    border-radius: 16px;
+
+}
+.playgroup{
+    background-color: #00a0f5;
+}
+.Nursery{
+    background-color: #eaa900;
+}
+.Junior{
+    background-color: #88ca0f;
+}
+.Senior{
+    background-color: #314a94;
+}
+.sub-C p{
+    font-size: 12px;
+}
+.sub-C h5{
+    color: #eb2683;
+    font-weight: 800;
+}
+.section-D {
+    display: block;
+    padding: 24px;
+    background-image: url(Section-D\ bg.png);
+}
+.sub-D{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sub-D img{
+    width: 400px;
+    margin-right: 40px;
+}
+.main-textD{
+    display: block;
+
+    
+}
+.main-textDD{
+    display: block;
+    margin-top: 64px;
+}
+.small-D{
+    display: flex;
+    margin-left: 40px;
+}
+.mini-subD{
+    display: flex;
+    padding-right: 16px;
+    
+
+    
+}
+.mini-subD img{
+    width: 56px;
+    height: 56px;
+    padding: 24px;
+    
+}
+
+
+.mini-textD{
+    display: block;
+}
+.mini-textD p{
+    font-size: 12px;
+}
+.mini-textD h5{
+    color: #eb2683;
+}
+.section-E{
+    display: flex;
+    background-image: url(Section-E\ bg\ \(1\).png);
+    height: 400px;
+    text-align: center;
+    background-size: cover;
+}
+.section-E p{
+    font-size: 8px;
+    color: white;
+    margin-top:372px;
+    padding-left: 480px;
+}
